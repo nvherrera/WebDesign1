@@ -1,6 +1,6 @@
 /*Global Styles*/
 body{
-    background-color: #468C58;
+    background-color: white;
 }
 img{
     display: block;
@@ -8,23 +8,20 @@ img{
     margin: 0 auto;
 }
 
+
 /*Mobile Styles*/
 #container {
-    background-color: #70BF4B;
+    background-color: #91CCD9;
     margin: 10px;
-    border: 4px solid #F2CF8D;
+    border: 4px solid #384D59;
 }
-
 header{
-    background-image: url('../images/gcourse1.jpg');
-    background-size: cover;
-    padding: 60px 0;
+    background-image: url('../imgs/mountains.png');
+    background-size: 33.3%;
 }
-
 header h1{
-    color: #F2CF8D;
+    color: #384D59;
     text-align: center;
-    text-shadow: 2px 2px 2px #000;
 }
 
 nav ul{
@@ -39,34 +36,33 @@ nav li {
 
 nav li a{
     display: block;
-    background-color: #468C58;
-    color: #F2CF8D;
-    height: 40px;
-    line-height: 40px;
+    background-color: #91CCD9;
+    color: white;
+    height: 25px;
+    line-height: 25px;
     text-align: center;
-    margin: 10px 0;
+    margin: 5px 0;
     font-size:1.2em;
     text-decoration: none;
     border-radius: 10px;
 }
 
 nav li a:hover {
-    background-color: #70BF4B;
-    text-shadow: 1px 1px 1px #000;
+    background-color: #384D59;
 }
 
 nav, section, aside, .col, footer{
-    background-color: #F2CF8D;
+    background-color: white;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    border: 4px solid #468C58;
+    border: 4px solid #91CCD9;
 }
 
 .button{
     display: block;
-    background-color: #468C58;
-    color: #F2CF8D;
+    background-color: #91CCD9;
+    color: white;
     height: 40px;
     width: 175px;
     line-height: 40px;
@@ -78,27 +74,117 @@ nav, section, aside, .col, footer{
 }
 
 .button:hover{
-    background-color: #70BF4B;
+    background-color: #384D59;
     text-shadow: 1px 1px 1px #000;
 }
 
 h2,h3{
-    color: #468C58;
-    text-shadow: 1px 1px 1px #000;
+    color: #384D59;
     font-size: 1.5em;
     text-align: center;
 }
 
+p{
+    color: #384D59;
+    font-size: 1em;
+    text-align: center;
+}
+
 section img, aside img{
-    width: 65%;
+    width: 25%;
 }
 
 footer{
     padding: 20px 0;
     text-align: center;
-    color:#468C58;
+    color:#384D59;
+}
+
+iframe{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.gallery_img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto
+}
+
+table{
+    display: none;
 }
 
 /*Tablet Styles*/
 
+@media(min-width: 768px) {
+    header{
+        padding: 125px;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav li a{
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #upper_flex{
+        display: flex;
+    }
+    iframe{
+        display: block;
+        margin: 20px auto;
+    }
+    table{
+        display: none;
+    }
+
+    .gallery_img{
+        width: auto;
+        border-radius: 10px;
+        margin: 10px auto;
+        padding: 100px;
+    }
+    
+}
 /*Desktop Styles*/
+@media(min-width: 1024px) {
+    header{
+        padding: 100px;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav li a{
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #upper_flex{
+        display: flex;
+    }
+    section, aside{
+        width: 60%;
+    }
+    table, tr, td{
+        border: 4px solid #91CCD9;
+        padding: 10px;
+        margin: 10px;
+    }
+}
