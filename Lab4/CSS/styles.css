@@ -15,10 +15,7 @@ img{
     margin: 10px;
     border: 4px solid #384D59;
 }
-header{
-    background-image: url('../imgs/mountains.png');
-    background-size: 33.3%;
-}
+
 header h1{
     color: #384D59;
     text-align: center;
@@ -119,16 +116,23 @@ table{
 /*Tablet Styles*/
 
 @media(min-width: 768px) {
+    #container {
+        background-color: #91CCD9;
+        margin: 10px;
+        border: 4px solid #384D59;
+    }
     header{
-        padding: 125px;
+        padding: 5px;
     }
     header h1 {
         font-size: 3em;
-    }
-    nav {
-        text-align: center;
         padding: 5px;
     }
+
+    nav {
+        text-align: center;
+    }
+
     nav li{
         display: inline-block;
     }
@@ -137,9 +141,7 @@ table{
         height: 50px;
         line-height: 50px;
     }
-    #upper_flex{
-        display: flex;
-    }
+ 
     iframe{
         display: block;
         margin: 20px auto;
@@ -152,14 +154,19 @@ table{
         width: auto;
         border-radius: 10px;
         margin: 10px auto;
-        padding: 100px;
+        padding: 0px;
     }
     
 }
 /*Desktop Styles*/
 @media(min-width: 1024px) {
+    #container {
+        background-color: #91CCD9;
+        margin: 10px;
+        border: 4px solid #384D59;
+    }
     header{
-        padding: 100px;
+        padding: 87px;
     }
     header h1 {
         font-size: 3em;
@@ -180,11 +187,16 @@ table{
         display: flex;
     }
     section, aside{
-        width: 60%;
+        width: 100%;
     }
     table, tr, td{
-        border: 4px solid #91CCD9;
-        padding: 10px;
-        margin: 10px;
+        display: none;
+    }
+
+    .gallery_img{
+        width: auto;
+        border-radius: 10px;
+        margin: 10px auto;
+        padding: 0px;
     }
 }
