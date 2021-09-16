@@ -12,9 +12,13 @@ body{
 header{
     display: block;
     background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 header img{
-    width: 100%;
+    display: block;
+    margin: 10px auto;
 }
 nav ul{
     list-style-type: none;
@@ -38,6 +42,22 @@ nav li a{
 nav li a:hover {
     background-color: #BF212E;
 }
+
+.active{
+    background-color: #BF212E;
+}
+
+.products{
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 10%;
+}
+
+.products img{
+    width: 100%;
+}
+
 nav, section, aside, .col, footer{
     background-color: white;
     padding: 10px;
@@ -55,6 +75,7 @@ p{
     font-size: 1em;
     text-align: center;
 }
+
 section img, aside img{
     width: 25%;
 }
@@ -69,6 +90,10 @@ iframe{
     width: 100%;
     display: block;
     margin: 0px auto;
+}
+
+table, tr, td{
+    display: none;
 }
 
 
@@ -112,5 +137,17 @@ iframe{
     p {
         text-align: left;
         color: #2F3940;
+    }
+
+    .products{
+        display: none;
+    }
+
+    table, tr, td{
+        display: block;
+        background-color: white;
+        margin: 10px auto;
+        border-radius: 10px;
+        width: 50%;
     }
 }

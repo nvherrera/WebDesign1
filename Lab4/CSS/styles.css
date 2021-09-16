@@ -72,7 +72,10 @@ nav, section, aside, .col, footer{
 
 .button:hover{
     background-color: #384D59;
-    text-shadow: 1px 1px 1px #000;
+}
+
+.active{
+
 }
 
 h2,h3{
@@ -191,7 +194,6 @@ table{
     }
     table, tr, td{
         display: none;
-        
     }
 
     .gallery_img{
