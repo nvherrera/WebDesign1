@@ -58,6 +58,17 @@ nav li a:hover {
     width: 100%;
 }
 
+.local{
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 98%;
+}
+
+.local img{
+    width: 100%;
+}
+
 nav, section, aside, .col, footer{
     background-color: white;
     padding: 10px;
@@ -140,7 +151,25 @@ table, tr, td{
     }
 
     .products{
-        display: none;
+        background-color: white;
+        margin: 10px auto;
+        border-radius: 10px;
+        width: 20%;
+    }
+
+    .products img{
+        width: 100%;
+    }
+
+    .local{
+        background-color: white;
+        margin: 10px auto;
+        border-radius: 10px;
+        width: 20%;
+    }
+
+    .local img{
+        width: 100%;
     }
 
     table, tr, td{
