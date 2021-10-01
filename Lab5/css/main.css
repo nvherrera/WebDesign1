@@ -2,7 +2,9 @@
 body{
     background-color: #2F3940;
 }
-
+h4{
+    display: none;
+}
 /*Mobile Styles*/
 #container {
     background-color: #2F3940;
